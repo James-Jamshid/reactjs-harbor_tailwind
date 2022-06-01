@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: #65727b; */
+  /* background-color: #f9f7f4; */
+}
+h5 {
+  cursor: pointer;
+  color: #65727b;
+}
+h1 {
+  cursor: pointer;
+  color: #28514f;
+}
+h1:hover,
+h5:hover {
+  color: black;
+}
+p {
+  font-size: small;
+  color: #65727b;
+}
+
+h2 {
+  font-size: xx-large;
+  color: #28514f;
+}
+
+#icons {
+  cursor: pointer;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
