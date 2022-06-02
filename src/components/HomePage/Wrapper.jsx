@@ -16,20 +16,20 @@ const Wrapper = () => {
       </p>
       <div className="flex items-center gap-x-2">
         <Link to="/btn">
-          <button className="flex  items-center  justify-evenly border w-40 h-14 rounded-4xl text-[white] bg-[#28514F] hover:bg-black hover:text-[white]">
-            <img className="bg-[#28514F] hover:bg-black" src={image2} alt="" />
-            APP STORE
-          </button>
+          <div className="flex items-center justify-center  border w-40 h-14 rounded-4xl text-[white] bg-[#28514F] hover:bg-black hover:text-[white]">
+            <button className="flex gap-x-1 items-center justify-center">
+              <img className="" src={image2} alt="" />
+              APP STORE
+            </button>
+          </div>
         </Link>
         <Link to="/btn">
-          <button className="flex  items-center  justify-evenly border w-40 h-14 rounded-4xl text-[white] bg-[#28514F] hover:bg-black hover:text-[white]">
-            <img
-              className="bg-[#28514F] hover:bg-black"
-              src={playmarket}
-              alt=""
-            />
-            PLAY STORE
-          </button>
+          <div className="flex items-center justify-center  border w-40 h-14 rounded-4xl text-[white] bg-[#AEB4B6] hover:bg-black hover:text-[white]">
+            <button className="flex gap-x-1 items-center justify-center">
+              <img className="" src={playmarket} alt="" />
+              PLAY STORE
+            </button>
+          </div>
         </Link>
       </div>
       <div className="hidden  md:flex pr-32">
